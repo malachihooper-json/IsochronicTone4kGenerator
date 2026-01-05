@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+1306e2c65b57d9f0608328e9f2273732 IsochronicToneGen_artefacts/JuceLibraryCode/IsochronicToneGen_AU/PkgInfo
+48ba0e203814ddc053383268a377736d IsochronicToneGen_artefacts/JuceLibraryCode/IsochronicToneGen_VST3/PkgInfo

@@ -1,0 +1,3 @@
+/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles/juce-populate.dir
+/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles/edit_cache.dir
+/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles/rebuild_cache.dir

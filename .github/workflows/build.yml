@@ -1,0 +1,34 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Configure CMake
+      run: |
+        mkdir build
+        cd build
+        cmake ..
+
+    - name: Build Project
+      run: |
+        cd build
+        cmake --build . --config Release
+
+    - name: Check for Binaries
+      run: |
+        # Make sure the batch generator actually built
+        if [ ! -f build/IsochronicBatchGen ]; then
+          echo "Error: Batch Generator binary is missing."
+          exit 1
+        fi
+        echo "Binaries found."
