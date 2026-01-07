@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild
+CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild
+CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild
 
 # Utility rule file for juce-populate.
 
@@ -77,60 +77,60 @@ CMakeFiles/juce-populate-complete: juce-populate-prefix/src/juce-populate-stamp/
 CMakeFiles/juce-populate-complete: juce-populate-prefix/src/juce-populate-stamp/juce-populate-build
 CMakeFiles/juce-populate-complete: juce-populate-prefix/src/juce-populate-stamp/juce-populate-install
 CMakeFiles/juce-populate-complete: juce-populate-prefix/src/juce-populate-stamp/juce-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'juce-populate'"
-	/usr/local/bin/cmake -E make_directory /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles
-	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles/juce-populate-complete
-	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'juce-populate'"
+	/usr/local/bin/cmake -E make_directory /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles
+	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles/juce-populate-complete
+	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-done
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-update:
 .PHONY : juce-populate-prefix/src/juce-populate-stamp/juce-populate-update
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-build: juce-populate-prefix/src/juce-populate-stamp/juce-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'juce-populate'"
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'juce-populate'"
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-build
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-configure: juce-populate-prefix/tmp/juce-populate-cfgcmd.txt
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-configure: juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'juce-populate'"
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'juce-populate'"
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-configure
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-download: juce-populate-prefix/src/juce-populate-stamp/juce-populate-gitinfo.txt
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-download: juce-populate-prefix/src/juce-populate-stamp/juce-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'juce-populate'"
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitclone.cmake
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'juce-populate'"
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps && /usr/local/bin/cmake -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitclone.cmake
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-download
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-install: juce-populate-prefix/src/juce-populate-stamp/juce-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'juce-populate'"
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'juce-populate'"
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-install
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'juce-populate'"
-	/usr/local/bin/cmake -Dcfgdir= -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-mkdirs.cmake
-	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'juce-populate'"
+	/usr/local/bin/cmake -Dcfgdir= -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-mkdirs.cmake
+	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-mkdir
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch: juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch-info.txt
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch: juce-populate-prefix/src/juce-populate-stamp/juce-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'juce-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'juce-populate'"
 	/usr/local/bin/cmake -E echo_append
-	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch
+	/usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-patch
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-update:
 .PHONY : juce-populate-prefix/src/juce-populate-stamp/juce-populate-update
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-test: juce-populate-prefix/src/juce-populate-stamp/juce-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'juce-populate'"
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'juce-populate'"
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E echo_append
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build && /usr/local/bin/cmake -E touch /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/juce-populate-test
 
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-update: juce-populate-prefix/tmp/juce-populate-gitupdate.cmake
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-update: juce-populate-prefix/src/juce-populate-stamp/juce-populate-update-info.txt
 juce-populate-prefix/src/juce-populate-stamp/juce-populate-update: juce-populate-prefix/src/juce-populate-stamp/juce-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'juce-populate'"
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src && /usr/local/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'juce-populate'"
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src && /usr/local/bin/cmake -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/juce-populate-prefix/tmp/juce-populate-gitupdate.cmake
 
 CMakeFiles/juce-populate.dir/codegen:
 .PHONY : CMakeFiles/juce-populate.dir/codegen
@@ -157,6 +157,6 @@ CMakeFiles/juce-populate.dir/clean:
 .PHONY : CMakeFiles/juce-populate.dir/clean
 
 CMakeFiles/juce-populate.dir/depend:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-subbuild/CMakeFiles/juce-populate.dir/DependInfo.cmake "--color=$(COLOR)" juce-populate
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-subbuild/CMakeFiles/juce-populate.dir/DependInfo.cmake "--color=$(COLOR)" juce-populate
 .PHONY : CMakeFiles/juce-populate.dir/depend
 

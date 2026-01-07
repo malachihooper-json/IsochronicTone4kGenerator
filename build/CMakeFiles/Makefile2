@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen
+CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build
+CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -181,14 +181,14 @@ _deps/juce-build/modules/clean:
 CMakeFiles/IsochronicToneGen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen.dir/build.make CMakeFiles/IsochronicToneGen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen.dir/build.make CMakeFiles/IsochronicToneGen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target IsochronicToneGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target IsochronicToneGen"
 .PHONY : CMakeFiles/IsochronicToneGen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IsochronicToneGen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IsochronicToneGen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : CMakeFiles/IsochronicToneGen.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ IsochronicToneGen: CMakeFiles/IsochronicToneGen.dir/rule
 # codegen rule for target.
 CMakeFiles/IsochronicToneGen.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen.dir/build.make CMakeFiles/IsochronicToneGen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Finished codegen for target IsochronicToneGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Finished codegen for target IsochronicToneGen"
 .PHONY : CMakeFiles/IsochronicToneGen.dir/codegen
 
 # clean rule for target.
@@ -214,14 +214,14 @@ CMakeFiles/IsochronicToneGen_All.dir/all: CMakeFiles/IsochronicToneGen_AU.dir/al
 CMakeFiles/IsochronicToneGen_All.dir/all: CMakeFiles/IsochronicToneGen_VST3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_All.dir/build.make CMakeFiles/IsochronicToneGen_All.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_All.dir/build.make CMakeFiles/IsochronicToneGen_All.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num= "Built target IsochronicToneGen_All"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num= "Built target IsochronicToneGen_All"
 .PHONY : CMakeFiles/IsochronicToneGen_All.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IsochronicToneGen_All.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 48
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IsochronicToneGen_All.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : CMakeFiles/IsochronicToneGen_All.dir/rule
 
 # Convenience name for target.
@@ -232,7 +232,7 @@ IsochronicToneGen_All: CMakeFiles/IsochronicToneGen_All.dir/rule
 CMakeFiles/IsochronicToneGen_All.dir/codegen: CMakeFiles/IsochronicToneGen_AU.dir/all
 CMakeFiles/IsochronicToneGen_All.dir/codegen: CMakeFiles/IsochronicToneGen_VST3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_All.dir/build.make CMakeFiles/IsochronicToneGen_All.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num= "Finished codegen for target IsochronicToneGen_All"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num= "Finished codegen for target IsochronicToneGen_All"
 .PHONY : CMakeFiles/IsochronicToneGen_All.dir/codegen
 
 # clean rule for target.
@@ -247,14 +247,14 @@ CMakeFiles/IsochronicToneGen_All.dir/clean:
 CMakeFiles/IsochronicToneGen_AU.dir/all: CMakeFiles/IsochronicToneGen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_AU.dir/build.make CMakeFiles/IsochronicToneGen_AU.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_AU.dir/build.make CMakeFiles/IsochronicToneGen_AU.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target IsochronicToneGen_AU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target IsochronicToneGen_AU"
 .PHONY : CMakeFiles/IsochronicToneGen_AU.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IsochronicToneGen_AU.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IsochronicToneGen_AU.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : CMakeFiles/IsochronicToneGen_AU.dir/rule
 
 # Convenience name for target.
@@ -264,7 +264,7 @@ IsochronicToneGen_AU: CMakeFiles/IsochronicToneGen_AU.dir/rule
 # codegen rule for target.
 CMakeFiles/IsochronicToneGen_AU.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_AU.dir/build.make CMakeFiles/IsochronicToneGen_AU.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39 "Finished codegen for target IsochronicToneGen_AU"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=27,28,29,30,31,32,33,34,35,36,37,38,39 "Finished codegen for target IsochronicToneGen_AU"
 .PHONY : CMakeFiles/IsochronicToneGen_AU.dir/codegen
 
 # clean rule for target.
@@ -280,14 +280,14 @@ CMakeFiles/IsochronicToneGen_VST3.dir/all: CMakeFiles/IsochronicToneGen.dir/all
 CMakeFiles/IsochronicToneGen_VST3.dir/all: CMakeFiles/IsochronicToneGen_vst3_helper.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_VST3.dir/build.make CMakeFiles/IsochronicToneGen_VST3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_VST3.dir/build.make CMakeFiles/IsochronicToneGen_VST3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target IsochronicToneGen_VST3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52 "Built target IsochronicToneGen_VST3"
 .PHONY : CMakeFiles/IsochronicToneGen_VST3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IsochronicToneGen_VST3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IsochronicToneGen_VST3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : CMakeFiles/IsochronicToneGen_VST3.dir/rule
 
 # Convenience name for target.
@@ -297,7 +297,7 @@ IsochronicToneGen_VST3: CMakeFiles/IsochronicToneGen_VST3.dir/rule
 # codegen rule for target.
 CMakeFiles/IsochronicToneGen_VST3.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_VST3.dir/build.make CMakeFiles/IsochronicToneGen_VST3.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52 "Finished codegen for target IsochronicToneGen_VST3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52 "Finished codegen for target IsochronicToneGen_VST3"
 .PHONY : CMakeFiles/IsochronicToneGen_VST3.dir/codegen
 
 # clean rule for target.
@@ -312,14 +312,14 @@ CMakeFiles/IsochronicToneGen_VST3.dir/clean:
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_vst3_helper.dir/build.make CMakeFiles/IsochronicToneGen_vst3_helper.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_vst3_helper.dir/build.make CMakeFiles/IsochronicToneGen_vst3_helper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=53,54 "Built target IsochronicToneGen_vst3_helper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=53,54 "Built target IsochronicToneGen_vst3_helper"
 .PHONY : CMakeFiles/IsochronicToneGen_vst3_helper.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IsochronicToneGen_vst3_helper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : CMakeFiles/IsochronicToneGen_vst3_helper.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ IsochronicToneGen_vst3_helper: CMakeFiles/IsochronicToneGen_vst3_helper.dir/rule
 # codegen rule for target.
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicToneGen_vst3_helper.dir/build.make CMakeFiles/IsochronicToneGen_vst3_helper.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=53,54 "Finished codegen for target IsochronicToneGen_vst3_helper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=53,54 "Finished codegen for target IsochronicToneGen_vst3_helper"
 .PHONY : CMakeFiles/IsochronicToneGen_vst3_helper.dir/codegen
 
 # clean rule for target.
@@ -344,14 +344,14 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/clean:
 CMakeFiles/IsochronicBatchGen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicBatchGen.dir/build.make CMakeFiles/IsochronicBatchGen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicBatchGen.dir/build.make CMakeFiles/IsochronicBatchGen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target IsochronicBatchGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target IsochronicBatchGen"
 .PHONY : CMakeFiles/IsochronicBatchGen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/IsochronicBatchGen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/IsochronicBatchGen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : CMakeFiles/IsochronicBatchGen.dir/rule
 
 # Convenience name for target.
@@ -361,7 +361,7 @@ IsochronicBatchGen: CMakeFiles/IsochronicBatchGen.dir/rule
 # codegen rule for target.
 CMakeFiles/IsochronicBatchGen.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/IsochronicBatchGen.dir/build.make CMakeFiles/IsochronicBatchGen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target IsochronicBatchGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target IsochronicBatchGen"
 .PHONY : CMakeFiles/IsochronicBatchGen.dir/codegen
 
 # clean rule for target.
@@ -376,7 +376,7 @@ CMakeFiles/IsochronicBatchGen.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

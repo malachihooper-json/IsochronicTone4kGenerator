@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen
+CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build
+CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build
 
 # Utility rule file for IsochronicToneGen_All.
 
@@ -81,6 +81,6 @@ CMakeFiles/IsochronicToneGen_All.dir/clean:
 .PHONY : CMakeFiles/IsochronicToneGen_All.dir/clean
 
 CMakeFiles/IsochronicToneGen_All.dir/depend:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles/IsochronicToneGen_All.dir/DependInfo.cmake "--color=$(COLOR)" IsochronicToneGen_All
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles/IsochronicToneGen_All.dir/DependInfo.cmake "--color=$(COLOR)" IsochronicToneGen_All
 .PHONY : CMakeFiles/IsochronicToneGen_All.dir/depend
 

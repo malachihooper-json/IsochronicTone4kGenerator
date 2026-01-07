@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm" "CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o" "gcc" "CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d"
+  "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm" "CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o" "gcc" "CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

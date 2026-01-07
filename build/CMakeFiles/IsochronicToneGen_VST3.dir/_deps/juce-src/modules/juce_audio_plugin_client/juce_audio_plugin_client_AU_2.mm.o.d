@@ -1,6 +1,6 @@
 CMakeFiles/IsochronicToneGen_VST3.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o: \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/system/juce_TargetPlatform.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/system/juce_TargetPlatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen
+CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build
+CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/IsochronicToneGen_vst3_helper.dir/depend.make
@@ -75,16 +75,16 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/codegen:
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: CMakeFiles/IsochronicToneGen_vst3_helper.dir/flags.make
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: _deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: CMakeFiles/IsochronicToneGen_vst3_helper.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -MF CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d -o CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -MF CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o.d -o CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm
 
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm > CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm > CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.i
 
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm -o CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm -o CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.s
 
 # Object files for target IsochronicToneGen_vst3_helper
 IsochronicToneGen_vst3_helper_OBJECTS = \
@@ -96,7 +96,7 @@ IsochronicToneGen_vst3_helper_EXTERNAL_OBJECTS =
 IsochronicToneGen_vst3_helper: CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o
 IsochronicToneGen_vst3_helper: CMakeFiles/IsochronicToneGen_vst3_helper.dir/build.make
 IsochronicToneGen_vst3_helper: CMakeFiles/IsochronicToneGen_vst3_helper.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable IsochronicToneGen_vst3_helper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable IsochronicToneGen_vst3_helper"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IsochronicToneGen_vst3_helper.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/clean:
 .PHONY : CMakeFiles/IsochronicToneGen_vst3_helper.dir/clean
 
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/depend:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles/IsochronicToneGen_vst3_helper.dir/DependInfo.cmake "--color=$(COLOR)" IsochronicToneGen_vst3_helper
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles/IsochronicToneGen_vst3_helper.dir/DependInfo.cmake "--color=$(COLOR)" IsochronicToneGen_vst3_helper
 .PHONY : CMakeFiles/IsochronicToneGen_vst3_helper.dir/depend
 

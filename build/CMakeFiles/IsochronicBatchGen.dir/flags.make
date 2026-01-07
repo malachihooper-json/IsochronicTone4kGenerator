@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_audio_basics=1 -DJUCE_MODULE_AVAILABLE_juce_audio_formats=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DNDEBUG=1 -D_NDEBUG=1
 
-CXX_INCLUDES = -I/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules
+CXX_INCLUDES = -I/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules
 
 CXX_FLAGS = -std=gnu++17
 

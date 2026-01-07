@@ -130,11 +130,44 @@ private:
   AllPass allPass;
 };
 
+struct JourneyPoint {
+  double timeSec;
+  float pulseFreq;
+  float carrierFreq;
+};
+
+std::vector<JourneyPoint> parseJourney(const std::string &pulseStr,
+                                       const std::string &carrierStr,
+                                       double duration) {
+  auto split = [](const std::string &s) {
+    std::vector<float> v;
+    std::stringstream ss(s);
+    std::string item;
+    while (std::getline(ss, item, ','))
+      v.push_back(std::stof(item));
+    return v;
+  };
+
+  std::vector<float> pulses = split(pulseStr);
+  std::vector<float> carriers = split(carrierStr);
+  std::vector<JourneyPoint> points;
+
+  // We expect exactly 5 points for a "Quarter Point" journey
+  if (pulses.size() != 5 || carriers.size() != 5)
+    return points;
+
+  double milestones[5] = {0.0, 0.25, 0.5, 0.75, 1.0};
+  for (int i = 0; i < 5; ++i) {
+    points.push_back({milestones[i] * duration, pulses[i], carriers[i]});
+  }
+  return points;
+}
+
 int main(int argc, char *argv[]) {
   if (argc < 7) {
     std::cout << "Usage: IsochronicBatchGen <output_wav> <duration_seconds> "
-                 "<pulse_freq> <carrier_freq> <softness> <type> [gain_db] "
-                 "[noise_type] [noise_level]"
+                 "<pulse_freq_or_points> <carrier_freq_or_points> <softness> "
+                 "<type> [gain_db] [noise_type] [noise_level]"
               << std::endl;
     return 1;
   }
@@ -142,8 +175,8 @@ int main(int argc, char *argv[]) {
   try {
     juce::File outputFile(argv[1]);
     double durationSeconds = std::stod(argv[2]);
-    float pulseFreq = std::stof(argv[3]);
-    float carrierFreq = std::stof(argv[4]);
+    std::string pulseArg = argv[3];
+    std::string carrierArg = argv[4];
     float softness = std::stof(argv[5]);
     int entrainmentType = std::stoi(argv[6]);
     float gainDb = (argc >= 8) ? std::stof(argv[7]) : -10.0f;
@@ -151,14 +184,24 @@ int main(int argc, char *argv[]) {
     int noiseTypeIdx = (argc >= 9) ? std::stoi(argv[8]) : -1;
     float noiseLevel = (argc >= 10) ? std::stof(argv[9]) : 0.3f;
 
+    bool isJourney = (pulseArg.find(',') != std::string::npos);
+    std::vector<JourneyPoint> journeyPoints;
+    if (isJourney) {
+      journeyPoints = parseJourney(pulseArg, carrierArg, durationSeconds);
+      if (journeyPoints.empty()) {
+        std::cerr << "Error: Invalid journey points (expected 5 values)."
+                  << std::endl;
+        return 1;
+      }
+    }
+
     double sampleRate = 44100.0;
     int64_t totalSamples = static_cast<int64_t>(durationSeconds * sampleRate);
 
     juce::WavAudioFormat wavFormat;
     auto stream = outputFile.createOutputStream();
     if (!stream) {
-      std::cerr << "Error: Could not create output stream for "
-                << outputFile.getFullPathName() << std::endl;
+      std::cerr << "Error: Could not create output stream" << std::endl;
       return 1;
     }
 
@@ -175,24 +218,15 @@ int main(int argc, char *argv[]) {
 
     OrganicNoiseSynth noiseL, noiseR;
     if (noiseTypeIdx >= 0) {
-      noiseL.prepare(sampleRate,
-                     static_cast<OrganicNoiseSynth::Type>(noiseTypeIdx),
-                     pulseFreq);
-      noiseR.prepare(sampleRate,
-                     static_cast<OrganicNoiseSynth::Type>(noiseTypeIdx),
-                     pulseFreq);
+      float basePulse = isJourney ? journeyPoints[0].pulseFreq : std::stof(pulseArg);
+      noiseL.prepare(sampleRate, static_cast<OrganicNoiseSynth::Type>(noiseTypeIdx), basePulse);
+      noiseR.prepare(sampleRate, static_cast<OrganicNoiseSynth::Type>(noiseTypeIdx), basePulse);
     }
 
     const int blockSize = 8192;
     juce::AudioBuffer<float> buffer(2, blockSize);
     double carrierPhase = 0.0, pulsePhase = 0.0, phaseL = 0.0, phaseR = 0.0;
     const double pi2 = 2.0 * juce::MathConstants<double>::pi;
-    const double carrierIncr = (pi2 * (double)carrierFreq) / sampleRate;
-    const double pulseIncr = (pi2 * (double)pulseFreq) / sampleRate;
-    const double incrL =
-        (pi2 * ((double)carrierFreq - ((double)pulseFreq / 2.0))) / sampleRate;
-    const double incrR =
-        (pi2 * ((double)carrierFreq + ((double)pulseFreq / 2.0))) / sampleRate;
     const float softnessExp = 1.0f + (softness * 4.0f);
 
     int64_t samplesProcessed = 0;
@@ -204,13 +238,39 @@ int main(int argc, char *argv[]) {
       auto *dataR = buffer.getWritePointer(1);
 
       for (int i = 0; i < static_cast<int>(samplesThisBlock); ++i) {
+        double currentTime = (double)(samplesProcessed + i) / sampleRate;
+        float currentPulse = 0.0f;
+        float currentCarrier = 0.0f;
+
+        if (isJourney) {
+          // Linear interpolation for journey
+          int idx = 0;
+          while (idx < 4 && currentTime > journeyPoints[idx + 1].timeSec)
+            idx++;
+          double t1 = journeyPoints[idx].timeSec;
+          double t2 = journeyPoints[idx + 1].timeSec;
+          double alpha = (currentTime - t1) / (t2 - t1);
+          currentPulse = journeyPoints[idx].pulseFreq +
+                         alpha * (journeyPoints[idx + 1].pulseFreq -
+                                  journeyPoints[idx].pulseFreq);
+          currentCarrier = journeyPoints[idx].carrierFreq +
+                           alpha * (journeyPoints[idx + 1].carrierFreq -
+                                    journeyPoints[idx].carrierFreq);
+        } else {
+          currentPulse = std::stof(pulseArg);
+          currentCarrier = std::stof(carrierArg);
+        }
+
+        const double carrierIncr = (pi2 * (double)currentCarrier) / sampleRate;
+        const double pulseIncr = (pi2 * (double)currentPulse) / sampleRate;
+        const double incrL = (pi2 * ((double)currentCarrier - ((double)currentPulse / 2.0))) / sampleRate;
+        const double incrR = (pi2 * ((double)currentCarrier + ((double)currentPulse / 2.0))) / sampleRate;
+
         float outL = 0.0f, outR = 0.0f;
         if (entrainmentType == 0) {
           float c = std::sin(static_cast<float>(carrierPhase));
           carrierPhase += carrierIncr;
-          float p =
-              std::pow(std::max(0.0f, std::sin(static_cast<float>(pulsePhase))),
-                       softnessExp);
+          float p = std::pow(std::max(0.0f, std::sin(static_cast<float>(pulsePhase))), softnessExp);
           pulsePhase += pulseIncr;
           outL = c * p * gain;
           outR = outL;
@@ -221,14 +281,10 @@ int main(int argc, char *argv[]) {
           phaseR += incrR;
         }
 
-        if (carrierPhase > pi2)
-          carrierPhase -= pi2;
-        if (pulsePhase > pi2)
-          pulsePhase -= pi2;
-        if (phaseL > pi2)
-          phaseL -= pi2;
-        if (phaseR > pi2)
-          phaseR -= pi2;
+        if (carrierPhase > pi2) carrierPhase -= pi2;
+        if (pulsePhase > pi2) pulsePhase -= pi2;
+        if (phaseL > pi2) phaseL -= pi2;
+        if (phaseR > pi2) phaseR -= pi2;
 
         if (noiseTypeIdx >= 0) {
           outL += noiseL.process() * noiseLevel;
@@ -240,8 +296,7 @@ int main(int argc, char *argv[]) {
         dataL[i] = std::tanh(outL + wetL * 0.12f);
         dataR[i] = std::tanh(outR + wetR * 0.12f);
       }
-      writer->writeFromAudioSampleBuffer(buffer, 0,
-                                         static_cast<int>(samplesThisBlock));
+      writer->writeFromAudioSampleBuffer(buffer, 0, static_cast<int>(samplesThisBlock));
       samplesProcessed += samplesThisBlock;
       if (samplesProcessed % (static_cast<int64_t>(sampleRate) * 5) == 0) {
         std::cout << "\rProgress: " << std::fixed << std::setprecision(1)
@@ -254,6 +309,5 @@ int main(int argc, char *argv[]) {
     std::cerr << "\nRuntime Error: " << e.what() << std::endl;
     return 1;
   }
-
   return 0;
 }

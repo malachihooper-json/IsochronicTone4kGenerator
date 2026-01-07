@@ -10,8 +10,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.2.1/CMakeSystem.cmake"
   "CMakeLists.txt"
   "juce-populate-prefix/tmp/juce-populate-mkdirs.cmake"
+  "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake"
   "/usr/local/share/cmake/Modules/CMakeGenericSystem.cmake"
   "/usr/local/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+  "/usr/local/share/cmake/Modules/CMakeSystem.cmake.in"
   "/usr/local/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/share/cmake/Modules/ExternalProject.cmake"
@@ -36,6 +38,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/4.2.1/CMakeSystem.cmake"
   "juce-populate-prefix/tmp/juce-populate-mkdirs.cmake"
   "juce-populate-prefix/tmp/juce-populate-gitclone.cmake"
   "juce-populate-prefix/src/juce-populate-stamp/juce-populate-gitinfo.txt"

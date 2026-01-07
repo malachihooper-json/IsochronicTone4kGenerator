@@ -33,6 +33,8 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/Users/malachihooper/.cargo/bin/"
+      - "/Users/malachihooper/.antigravity/extensions/ms-python.debugpy-2025.18.0-darwin-x64/bundled/scripts/noConfigScripts/"
+      - "/Users/malachihooper/.antigravity/extensions/vscjava.vscode-java-debug-0.58.4-universal/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/local/opt/openjdk/bin/uname"
       - "/usr/local/bin/uname"
@@ -54,6 +56,8 @@ events:
         - "/Library/Apple/usr/bin"
         - "/usr/local/opt/openjdk/bin"
         - "/Users/malachihooper/.cargo/bin"
+        - "/Users/malachihooper/.antigravity/extensions/ms-python.debugpy-2025.18.0-darwin-x64/bundled/scripts/noConfigScripts"
+        - "/Users/malachihooper/.antigravity/extensions/vscjava.vscode-java-debug-0.58.4-universal/bundled/scripts/noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -94,6 +98,8 @@ events:
       - "/opt/pmk/env/global/bin/"
       - "/Library/Apple/usr/bin/"
       - "/Users/malachihooper/.cargo/bin/"
+      - "/Users/malachihooper/.antigravity/extensions/ms-python.debugpy-2025.18.0-darwin-x64/bundled/scripts/noConfigScripts/"
+      - "/Users/malachihooper/.antigravity/extensions/vscjava.vscode-java-debug-0.58.4-universal/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "/usr/local/opt/openjdk/bin/install_name_tool"
       - "/usr/local/bin/install_name_tool"
@@ -115,5 +121,7 @@ events:
         - "/Library/Apple/usr/bin"
         - "/usr/local/opt/openjdk/bin"
         - "/Users/malachihooper/.cargo/bin"
+        - "/Users/malachihooper/.antigravity/extensions/ms-python.debugpy-2025.18.0-darwin-x64/bundled/scripts/noConfigScripts"
+        - "/Users/malachihooper/.antigravity/extensions/vscjava.vscode-java-debug-0.58.4-universal/bundled/scripts/noConfigScripts"
       CMAKE_INSTALL_PREFIX: "/usr/local"
 ...

@@ -1,6 +1,6 @@
 CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm.o: \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.mm \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ManifestHelper.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -796,22 +796,22 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_p
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/system/juce_TargetPlatform.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/system/juce_TargetPlatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/system/juce_CompilerSupport.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/coreiids.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/funknown.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/fplatform.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/ftypes.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/smartpointer.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/ibstream.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/icloneable.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/ipluginbase.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/fstrdefs.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/iupdatehandler.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/funknown.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/system/juce_CompilerSupport.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/coreiids.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/funknown.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/fplatform.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/ftypes.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/smartpointer.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/ibstream.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/icloneable.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/ipluginbase.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/fstrdefs.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/iupdatehandler.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/funknown.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFAvailability.h \
@@ -927,14 +927,14 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_p
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFXMLParser.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdatomic.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdatomic.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/commonstringconvert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/codecvt \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/memorystream.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/memorystream.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/futils.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/readfile.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/readfile.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/memorystream.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/memorystream.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/futils.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/readfile.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/common/readfile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
@@ -954,20 +954,20 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_p
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/uid.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/optional.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/vsttypes.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/utility/optional.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/funknownimpl.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfo.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/module.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/uid.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/hosting/../utility/optional.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/vsttypes.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/utility/optional.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/funknownimpl.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfocreator.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfo.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/jsoncxx.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/json.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/jsoncxx.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/json.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
@@ -987,43 +987,43 @@ CMakeFiles/IsochronicToneGen_vst3_helper.dir/_deps/juce-src/modules/juce_audio_p
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/iplugincompatibility.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstaudioprocessor.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstcomponent.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/falignpush.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/falignpop.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/vstspeaker.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstautomationstate.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstchannelcontextinfo.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstattributes.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstcontextmenu.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstdataexchange.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivsteditcontroller.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstevents.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstprocesscontext.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstnoteexpression.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivsthostapplication.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstmessage.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstinterappaudio.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstmidimapping2.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstmidilearn.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterchanges.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterfunctionname.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstphysicalui.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstpluginterfacesupport.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstplugview.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstprefetchablesupport.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstremapparamid.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstrepresentation.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivsttestplugprovider.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/istringresult.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstunits.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/detail/juce_IncrementRef.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/juce_VST3Utilities.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_processors_headless/utilities/juce_VST3Interface.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ModuleInfo.h
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/moduleinfo/moduleinfoparser.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/utility/stringconvert.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/public.sdk/source/vst/vstinitiids.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/iplugincompatibility.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstaudioprocessor.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstcomponent.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/falignpush.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/falignpop.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/vstspeaker.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstautomationstate.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstchannelcontextinfo.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstattributes.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstcontextmenu.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstdataexchange.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivsteditcontroller.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstevents.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstprocesscontext.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstnoteexpression.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivsthostapplication.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstmessage.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstinterappaudio.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstmidimapping2.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstmidilearn.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterchanges.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstparameterfunctionname.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstphysicalui.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstpluginterfacesupport.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstplugview.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstprefetchablesupport.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstremapparamid.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstrepresentation.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivsttestplugprovider.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/base/istringresult.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/VST3_SDK/pluginterfaces/vst/ivstunits.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/detail/juce_IncrementRef.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/format_types/juce_VST3Utilities.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_processors_headless/utilities/juce_VST3Interface.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/VST3/juce_VST3ModuleInfo.h

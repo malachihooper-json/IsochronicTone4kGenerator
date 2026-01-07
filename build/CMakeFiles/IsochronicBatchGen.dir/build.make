@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen
+CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build
+CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/IsochronicBatchGen.dir/depend.make
@@ -73,74 +73,74 @@ CMakeFiles/IsochronicBatchGen.dir/codegen:
 .PHONY : CMakeFiles/IsochronicBatchGen.dir/codegen
 
 CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o: CMakeFiles/IsochronicBatchGen.dir/flags.make
-CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o: /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/BatchGenerator/gen_audio.cpp
+CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o: /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/BatchGenerator/gen_audio.cpp
 CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o: CMakeFiles/IsochronicBatchGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o -MF CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o.d -o CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/BatchGenerator/gen_audio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o -MF CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o.d -o CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/BatchGenerator/gen_audio.cpp
 
 CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/BatchGenerator/gen_audio.cpp > CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/BatchGenerator/gen_audio.cpp > CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.i
 
 CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/BatchGenerator/gen_audio.cpp -o CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/BatchGenerator/gen_audio.cpp -o CMakeFiles/IsochronicBatchGen.dir/BatchGenerator/gen_audio.cpp.s
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/IsochronicBatchGen.dir/flags.make
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o: _deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o: CMakeFiles/IsochronicBatchGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.i
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_formats/juce_audio_formats.mm.s
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/IsochronicBatchGen.dir/flags.make
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o: _deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o: CMakeFiles/IsochronicBatchGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.i
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_audio_basics/juce_audio_basics.mm.s
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/IsochronicBatchGen.dir/flags.make
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o: _deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o: CMakeFiles/IsochronicBatchGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.i
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core_CompilationTime.cpp.s
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o: CMakeFiles/IsochronicBatchGen.dir/flags.make
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o: _deps/juce-src/modules/juce_core/juce_core.mm
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o: CMakeFiles/IsochronicBatchGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/juce_core.mm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o -MF CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o.d -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o -c /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/juce_core.mm
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/juce_core.mm > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/juce_core.mm > CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.i
 
 CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/juce_core.mm -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/juce_core.mm -o CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.s
 
 # Object files for target IsochronicBatchGen
 IsochronicBatchGen_OBJECTS = \
@@ -160,7 +160,7 @@ IsochronicBatchGen: CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juc
 IsochronicBatchGen: CMakeFiles/IsochronicBatchGen.dir/_deps/juce-src/modules/juce_core/juce_core.mm.o
 IsochronicBatchGen: CMakeFiles/IsochronicBatchGen.dir/build.make
 IsochronicBatchGen: CMakeFiles/IsochronicBatchGen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable IsochronicBatchGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable IsochronicBatchGen"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IsochronicBatchGen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -172,6 +172,6 @@ CMakeFiles/IsochronicBatchGen.dir/clean:
 .PHONY : CMakeFiles/IsochronicBatchGen.dir/clean
 
 CMakeFiles/IsochronicBatchGen.dir/depend:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles/IsochronicBatchGen.dir/DependInfo.cmake "--color=$(COLOR)" IsochronicBatchGen
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles/IsochronicBatchGen.dir/DependInfo.cmake "--color=$(COLOR)" IsochronicBatchGen
 .PHONY : CMakeFiles/IsochronicBatchGen.dir/depend
 

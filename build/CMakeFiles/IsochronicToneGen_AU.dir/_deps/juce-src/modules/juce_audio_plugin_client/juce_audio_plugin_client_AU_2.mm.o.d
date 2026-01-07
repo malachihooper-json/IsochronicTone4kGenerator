@@ -1,17 +1,17 @@
 CMakeFiles/IsochronicToneGen_AU.dir/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o: \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/system/juce_TargetPlatform.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/system/juce_TargetPlatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_core/system/juce_CompilerWarnings.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUUtility.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_core/system/juce_CompilerWarnings.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBase.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUUtility.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioBaseTypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFBase.h \
@@ -1377,12 +1377,12 @@ CMakeFiles/IsochronicToneGen_AU.dir/_deps/juce-src/modules/juce_audio_plugin_cli
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIServices.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUAudioUnitImplementation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioCodec.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIUtility.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIUtility.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
@@ -1429,14 +1429,14 @@ CMakeFiles/IsochronicToneGen_AU.dir/_deps/juce-src/modules/juce_audio_plugin_cli
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBufferAllocator.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUSilentTimeout.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBuffer.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUBufferAllocator.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUEffectBase.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUSilentTimeout.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUInputElement.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIBase.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/CoreMIDI.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDISetup.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIThruConnection.h \
@@ -1455,11 +1455,11 @@ CMakeFiles/IsochronicToneGen_AU.dir/_deps/juce-src/modules/juce_audio_plugin_cli
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDICIDeviceManager.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDIUMPCIProfile.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers/MIDICapabilityInquiry.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.h \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.cpp \
-  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.h
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUMIDIEffectBase.h \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUOutputElement.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUPlugInDispatch.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/AUScopeElement.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/ComponentBase.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.cpp \
+  /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/modules/juce_audio_plugin_client/AU/AudioUnitSDK/MusicDeviceBase.h

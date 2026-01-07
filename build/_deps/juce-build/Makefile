@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen
+CMAKE_SOURCE_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build
+CMAKE_BINARY_DIR = /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build//CMakeFiles/progress.marks
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles 0
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build//CMakeFiles/progress.marks
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/clean
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,18 +148,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/preinstall
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/preinstall
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/juce-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/CMakeFiles/VerifyGlobs.cmake
-	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -P /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/CMakeFiles/VerifyGlobs.cmake
+	cd /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

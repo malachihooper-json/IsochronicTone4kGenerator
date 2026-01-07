@@ -13,7 +13,7 @@
   },
   "Classes": [
     {
-      "CID": "ABCDEF019182FAEB4D616E75416F7370",
+      "CID": "ABCDEF019182FAEB4D616E754178636B",
       "Category": "Audio Module Class",
       "Name": "IsochronicToneGen",
       "Vendor": "Antigravity",
@@ -29,7 +29,7 @@
       ],
     },
     {
-      "CID": "ABCDEF011234ABCD4D616E75416F7370",
+      "CID": "ABCDEF011234ABCD4D616E754178636B",
       "Category": "Component Controller Class",
       "Name": "IsochronicToneGen",
       "Vendor": "Antigravity",

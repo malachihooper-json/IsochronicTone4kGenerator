@@ -1,4 +1,4 @@
-# Install script for directory: /Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src
+# Install script for directory: /Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,41 +39,41 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/modules/cmake_install.cmake")
+  include("/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/extras/Build/cmake_install.cmake")
+  include("/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/extras/Build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/JUCE-8.0.12" TYPE FILE FILES
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/JUCEConfigVersion.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/JUCEConfig.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/JUCECheckAtomic.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/JUCEHelperTargets.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/JUCEModuleSupport.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/JUCEUtils.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/JuceLV2Defines.h.in"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/LaunchScreen.storyboard"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/PIPAudioProcessor.cpp.in"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/PIPComponent.cpp.in"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/PIPConsole.cpp.in"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/RecentFilesMenuTemplate.nib"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/UnityPluginGUIScript.cs.in"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/checkBundleSigning.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/copyDir.cmake"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/juce_runtime_arch_detection.cpp"
-    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/JUCEConfigVersion.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/JUCEConfig.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/JUCECheckAtomic.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/JUCEHelperTargets.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/JUCEModuleSupport.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/JUCEUtils.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/JuceLV2Defines.h.in"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/LaunchScreen.storyboard"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/PIPAudioProcessor.cpp.in"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/PIPComponent.cpp.in"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/PIPConsole.cpp.in"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/RecentFilesMenuTemplate.nib"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/UnityPluginGUIScript.cs.in"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/checkBundleSigning.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/copyDir.cmake"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/juce_runtime_arch_detection.cpp"
+    "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/install_local_manifest.txt"
+  file(WRITE "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -89,6 +89,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

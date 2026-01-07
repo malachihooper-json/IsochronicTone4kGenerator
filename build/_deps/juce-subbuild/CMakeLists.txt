@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(juce-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/juce-framework/JUCE.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "master"
-                    SOURCE_DIR          "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-src"
-                    BINARY_DIR          "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build"
+                    SOURCE_DIR          "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-src"
+                    BINARY_DIR          "/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/cmake_install.cmake",
-		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/modules/cmake_install.cmake",
-		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/extras/Build/cmake_install.cmake",
-		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicToneGen/build/_deps/juce-build/tools/extras/Build/juceaide/cmake_install.cmake"
+		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/cmake_install.cmake",
+		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/modules/cmake_install.cmake",
+		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/extras/Build/cmake_install.cmake",
+		"/Users/malachihooper/.gemini/antigravity/scratch/IsochronicTone4kGenerator/build/_deps/juce-build/tools/extras/Build/juceaide/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
